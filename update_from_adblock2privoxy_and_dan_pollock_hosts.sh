@@ -64,7 +64,7 @@ function main()
     mkdir -p "${ab2p_dir}"
 
     # Extract the "ab2p.easylist_easyprivacy" archive
-    7z x    \
+    7zr x    \
         -aoa            \
         -o${ab2p_dir}   \
         ab2p.easylist_easyprivacy.7z
